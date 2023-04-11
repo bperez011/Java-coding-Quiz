@@ -1,13 +1,13 @@
 let startButton = document.getElementById("Start Quiz");
 let questionDiv = document.getElementById("Quiz_Questions");
-let initalPage = document.getElementById("Inital Page");
+let initalPage = document.getElementById("Start-screen");
 let timerSpan = document.getElementById("Time");
 
 let questions = [
   {
     question: "Inside which HTML element do we put the JavaScript?",
-    choices: ["<Script>", "<js>", "<Javascript>", "<HTML>"],
-    answer: "<Script>",
+    choices: ["Script", "js", "Javascript", "HTML"],
+    answer: "Script",
   },
   {
     question: "The external JavaScript file must contain the <script> tag.",
